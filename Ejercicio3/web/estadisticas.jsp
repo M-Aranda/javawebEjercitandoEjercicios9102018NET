@@ -39,14 +39,15 @@
             <tbody>
                 <tr>
                     <td><%= dn.getCantNotas()%></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td><%= dn.getCantRojos()%></td>
+                    <td><%= dn.getCantAzules()%></td>
+                    <td><%= dn.getNotaMasAlta()%></td>
+                    <td><%= dn.getNotaMasBaja()%></td>
+                    <td><%= dn.getCantSietes()%></td>
+                    <td><%= dn.getPorcRojos()%></td>
+                    <td><%= dn.getPorcAzules()%></td>
+                    <td><%= dn.getCantNotas()%></td>
+
                 </tr>
             </tbody>
         </table>
